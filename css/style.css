@@ -1,0 +1,72 @@
+
+#app {
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* LAYOUT */
+
+.header {
+    height: 5%;
+}
+
+.page {
+    height: 95%;
+}
+
+.sidebar {
+    width: 70px;
+    height: 100%;
+}
+
+/* CONTENT */
+
+.content {
+    flex-grow: 1;
+}
+
+.content_header {
+    height: 30%;
+}
+
+.content_main {
+    height: 100%;
+}
+
+
+/* MEDIAQUERY */
+
+@media (min-width:768px) {
+    .content_header {
+        height: 20%;
+    }
+}
+
+@media (min-width:992px) {
+    .sidebar {
+        width: 150px;
+    }
+}   
+
+
+/* DEBUG */
+
+.debug header {
+    background-color: gray;
+}
+
+.debug .sidebar {
+    background-color: red;
+}
+
+.debug .content_header {
+    background-color: aqua;
+}
+
+.debug footer {
+    background-color: greenyellow;
+}
+
+.debug .content_main{
+    background-color: blueviolet;
+}
