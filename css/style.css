@@ -41,7 +41,7 @@ a {
 /* HEADER */
 
 .header {
-    align-items: center;
+    padding-top: 5px;
 }
 
 .header_img {
@@ -62,11 +62,19 @@ a {
     color: white;
 }
 
+.sidebar_nav {
+    row-gap: 750px;
+}
+
 /* NAV */
 
 .nav_items > *{
     display: inline-block;
     padding: 5px 0px;
+}
+
+.admin {
+
 }
 
 
