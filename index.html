@@ -12,10 +12,27 @@
     <title>Document</title>
 </head>
 <body id="app" class="debug">
-    <div class="header">
-        header
+    <!-- HEADER -->
+    <div class="header row">
+        <div class="col-2">
+            <img class="header_img d-none d-lg-block" src="./img/logo.svg" alt="">
+            <img class="mobile_logo d-block d-lg-none" src="./img/mobile-logo.png" alt="">
+        </div>
+        <div class="col-8">
+            <form class="d-flex" role="search">
+                <input class="form-control bg-gray" type="search" placeholder="Prova a cercare: Laravel">
+              </form>
+        </div>
+        <div class="items col-2 d-flex">
+            <i class="fa-solid fa-list d-none d-lg-block"></i>
+            <i class="fa-solid fa-question d-none d-lg-block"></i>
+            <i class="fa-solid fa-ellipsis-vertical d-none d-lg-block"></i>
+            <i class="fa-regular fa-bell text-warning"></i>
+        </div>
     </div>
+    <!-- PAGINA INTERA  -->
     <div class="page d-flex">
+        <!-- SIDEBAR -->
         <div class="sidebar row flex-column justify-content-between">
             <div class="col-6">
                 <a href="#">1</a>
@@ -23,9 +40,10 @@
                 <a href="#">3</a>
             </div>
             <div class="col-6">
-                <P>100</P>
+                100
             </div>
         </div>
+        <!-- CONTENUTO -->
         <div class="content">
             <div class="content_header">
                 content header

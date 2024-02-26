@@ -1,3 +1,15 @@
+img {
+    max-width: 100%;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
 
 #app {
     height: 100vh;
@@ -19,6 +31,32 @@
     height: 100%;
 }
 
+.mobile_logo {
+    width: 32px;
+}
+
+/* UTILITY */
+
+.bg-gray {
+    background-color: #E5E5E5;
+}
+
+/* HEADER */
+
+.header {
+    align-items: center;
+}
+
+.header_img {
+    padding: 0px 50px;
+}
+
+.items > * {
+    padding-left: calc(50% / 4)
+}
+
+
+
 /* CONTENT */
 
 .content {
@@ -32,6 +70,10 @@
 .content_main {
     height: 100%;
 }
+
+/* CONTENT HEADER */
+
+
 
 
 /* MEDIAQUERY */
