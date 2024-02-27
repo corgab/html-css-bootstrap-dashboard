@@ -36,6 +36,9 @@ a {
     overflow-y: auto;
 }
 
+.table img {
+    width: 30px;
+}
 
 
 /* UTILITY */
