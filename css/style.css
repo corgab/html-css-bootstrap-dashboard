@@ -33,13 +33,27 @@ a {
 
 .content_main {
     height: 100%;
-    overflow-y: auto;
+    background-color: #F8F9FA;
+    overflow: auto;
+}
+
+.content_header  {
+    background-color: #1B72E8;
+}
+
+.table {
+    margin: 0;
 }
 
 .table img {
     width: 30px;
 }
 
+.cart {
+    border: 3px solid gray;
+    border-radius: 5px;
+    margin: 20px;
+}
 
 /* UTILITY */
 
@@ -106,7 +120,7 @@ a {
 
 @media (min-width:768px) {
     .content_header {
-        height: 20%;
+        height: 15%;
     }
 }
 
@@ -118,19 +132,3 @@ a {
 
 
 /* DEBUG */
-
-.debug header {
-    background-color: gray;
-}
-
-.debug .content_header {
-    background-color: #1B72E8;
-}
-
-.debug footer {
-    background-color: greenyellow;
-}
-
-.debug .content_main{
-    background-color: blueviolet;
-}
