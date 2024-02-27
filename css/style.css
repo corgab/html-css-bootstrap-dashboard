@@ -30,14 +30,11 @@ a {
     width: 32px;
 }
 
-/* .content_header {
-    height: 10%;
-}
 
 .content_main {
     height: 100%;
     overflow-y: auto;
-} */
+}
 
 
 
@@ -97,6 +94,9 @@ a {
 
 /* CONTENT MAIN */
 
+.content_main .container {
+    height: 100%;
+}
 
 
 /* MEDIAQUERY */
