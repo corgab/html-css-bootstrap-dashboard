@@ -30,12 +30,26 @@ a {
     width: 32px;
 }
 
+/* .content_header {
+    height: 10%;
+}
+
+.content_main {
+    height: 100%;
+    overflow-y: auto;
+} */
+
 
 
 /* UTILITY */
 
 .bg-gray {
     background-color: #E5E5E5;
+}
+
+.btn, .badge {
+    background-color: #165BBA;
+    color: white;
 }
 
 /* HEADER */
@@ -73,27 +87,15 @@ a {
     padding: 5px 0px;
 }
 
-.admin {
-
-}
-
-
 /* CONTENT */
 
 .content {
     flex-grow: 1;
 }
 
-.content_header {
-    height: 30%;
-}
-
-.content_main {
-    height: 100%;
-}
-
 /* CONTENT HEADER */
 
+/* CONTENT MAIN */
 
 
 
@@ -119,7 +121,7 @@ a {
 }
 
 .debug .content_header {
-    background-color: aqua;
+    background-color: #1B72E8;
 }
 
 .debug footer {
